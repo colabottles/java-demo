@@ -1,6 +1,8 @@
 public class Calculator {
     public static double average(int[] numbers) {
-
+        /**
+         *  Testing commenting
+         */
         if (numbers.length == 0) {
             return 0;
         }
