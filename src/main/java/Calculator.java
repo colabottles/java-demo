@@ -1,7 +1,8 @@
 public class Calculator {
     public static double average(int[] numbers) {
-        /**
-         *  Testing commenting
+        /*
+           Testing commenting
+           in a multi-line comment
          */
         if (numbers.length == 0) {
             return 0;
@@ -10,7 +11,8 @@ public class Calculator {
         for (int number : numbers) {
             sum += number;
         }
-        double avg = (double) sum / numbers.length;
+        double avg;
+        avg = (double) sum / numbers.length;
         return avg;
     }
 }
