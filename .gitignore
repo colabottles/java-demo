@@ -32,7 +32,9 @@ build/
 !**/src/test/**/build/
 
 ### VS Code ###
-.vscode/
+./vscode
+*.code-workspace
+settings.json
 
 ### Mac OS ###
 .DS_Store
